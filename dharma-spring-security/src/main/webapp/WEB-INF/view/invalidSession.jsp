@@ -4,7 +4,7 @@
 <head></head>
 
 <body>
-	<h1>请登录后继续使用</h1>
+	<h1>非法会话</h1>
 
 	<a href="<c:url value="/login.html" />">To Login</a>
 </body>

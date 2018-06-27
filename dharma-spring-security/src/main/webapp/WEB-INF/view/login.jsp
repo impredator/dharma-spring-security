@@ -1,25 +1,25 @@
+<%@ page contentType="text/html;charset=GB2312" language="java" %>
 <html>
 <head></head>
 
 <body>
-	<h1>鐧诲綍</h1>
+	<h1>登录</h1>
 
-	<form name='f' action="perform_login" method='POST'>
-
-		<table>
-			<tr>
-				<td>鐢ㄦ埛鍚嶏細</td>
-				<td><input type='text' name='username' value=''></td>
-			</tr>
-			<tr>
-				<td>瀵嗙爜:</td>
-				<td><input type='password' name='password' /></td>
-			</tr>
-			<tr>
-				<td><input name="submit" type="submit" value="submit" /></td>
-			</tr>
-		</table>
-
+	<form name='f' action="dharma_login" method='POST'>
+		<ul>
+			<li>
+				<label>用户名：<input type='text' name='username' value=''></label>
+			</li>
+			<li>
+				<label>密码：<input type='password' name='password' /></label>
+			</li>
+			<li>
+				<input name="submit" type="submit" value="登录" />
+			</li>
+			<li>
+				<label>记住我 <input name="remember-me" type="checkbox" /></label>
+			</li>
+		</ul>
 	</form>
 
 </body>
