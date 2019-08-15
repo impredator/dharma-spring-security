@@ -14,10 +14,10 @@
 				<label>密码：<input type='password' name='password' /></label>
 			</li>
 			<li>
-				<input name="submit" type="submit" value="登录" />
+				<label>记住我 <input name="remember-me" type="checkbox" /></label>
 			</li>
 			<li>
-				<label>记住我 <input name="remember-me" type="checkbox" /></label>
+				<input name="submit" type="submit" value="登录" />
 			</li>
 		</ul>
 	</form>

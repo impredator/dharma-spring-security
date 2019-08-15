@@ -49,6 +49,6 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
     @Override
     public void addInterceptors(final InterceptorRegistry registry) {
 //        registry.addInterceptor(new UserInterceptor());
-//        registry.addInterceptor(new SessionTimerInterceptor());
+        registry.addInterceptor(new SessionTimerInterceptor());
     }
 }
